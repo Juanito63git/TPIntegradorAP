@@ -11,7 +11,7 @@ import { LoginUsuario } from '../model/login-usuario';
 export class AuthService {
 
 
-  authURL = 'https://localhost:8080/auth/';
+  authURL = 'http://localhost:8080/auth/';
 
 
   constructor(private httpClient: HttpClient) { }
