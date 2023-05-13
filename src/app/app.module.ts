@@ -12,7 +12,7 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 
 // Import ng-circle-progress
 import { NgCircleProgressModule } from 'ng-circle-progress';
-import { HardsoftskillsComponent } from './components/hardsoftskills/hardsoftskills.component';
+import { HardsoftskillsComponent} from './components/hardsoftskills/hardsoftskills.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -22,6 +22,8 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
+import { EditHardsoftskillsComponent } from './components/hardsoftskills/edit-hardsoftskills.component';
+import { NewHardsoftskillsComponent } from './components/hardsoftskills/new-hardsoftskills.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { EditeducacionComponent } from './components/educacion/editeducacion.com
     NewExperienciaComponent,
     EditExperienciaComponent,
     NeweducacionComponent,
-    EditeducacionComponent
+    EditeducacionComponent,
+    EditHardsoftskillsComponent,
+    NewHardsoftskillsComponent
   ],
   imports: [
     BrowserModule,
